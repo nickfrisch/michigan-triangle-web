@@ -628,9 +628,10 @@ h6 {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  border: 5px solid #474a4d;
+  width: 200px;
+  height: auto;
+  border-radius: 10%;
+  border: 4px solid #474a4d;
   margin: 0 auto;
 }
 
