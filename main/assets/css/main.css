@@ -53,7 +53,8 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 .section-header {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .section-header h2 {
@@ -577,6 +578,11 @@ h6 {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about
+{
+  text-align: center;
+}
+
 .about .content h2 {
   margin-top: 24px;
   font-weight: 700;
