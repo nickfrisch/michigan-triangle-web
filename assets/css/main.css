@@ -712,7 +712,6 @@ h6 {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.7);
-  opacity: 1;
 }
 
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
@@ -736,7 +735,6 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.3s;
 }
 
 .gallery-single .swiper-button-prev:hover:after,
@@ -796,7 +794,6 @@ h6 {
   background: var(--color-primary);
   color: #fff;
   border-radius: 50px;
-  transition: 0.3s;
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
@@ -938,12 +935,18 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#hero {
+  height: 100vh;  /* 100% of viewport height */
+  margin-bottom: 50px;
+}
+
 .hero {
   width: 100%;
   min-height: 30vh;
-  background: #000;
-  background-size: cover;
-  position: relative;
+  background-image: url('assets/img/DronePhotoOfHouse.webp');
+  background-size: cover;           /* Ensures the container is fully covered */
+  background-position: center;      /* Keeps the focal point centered */
+  background-repeat: no-repeat;     /* Prevents image tiling */
   padding: 140px 0 60px 0;
 }
 
@@ -974,9 +977,11 @@ h6 {
 }
 
 .hero p {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(235, 25, 25);
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 600;
+  text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 10);
 }
 
 .hero .btn-get-started {
