@@ -2,41 +2,48 @@ const positions = {
     'Executive Operations': ['Alumni Relations - Siddharth Gupta'],
 
     'Financial Operations':[
-        "Accountant - Siddharth Gupta",
+        "Accountant - Liam Hoover",
         "Grant Writing - Saksham Singh",
         "Fundraising - Saksham Singh"
     ],
 
     'External Affairs':[
-        "Greek Relations - Alex Simpson",
-        "Social Chair - Ishan Sinha",
-        "Risk Manager - Philippe Bertrand"
+        "Greek Relations - Elan Ronen",
+        "Social Chair - Alex Simpson",
+        "Risk Manager - Jack Galasso"
     ],
 
     'Membership Development':[
-        "Brotherhood Advisors - Elijah Pineda-Rodriguez and Max Salemi",
-        "Academic Chair - Jack Galasso",
+        "Brotherhood Advisors - Ian Moore",
+        "Academic Chair - Siddharth Gupta",
         "Professional Development - Philippe Bertrand",
-        "Service and Philanthropy - Nick Frisch",
-        "Signature Events - Eliot Wall"
+        "Service and Philanthropy - Tommy Hayman",
+        "Signature Events - Philippe Bertrand"
+    ],
+
+    "Internal Operations": [
+        "House Manager - Jack Galasso",
+        "Tech Consultant - Siddharth Gupta",
+        "House Improvements - Ethan King"
     ],
 
     "Public Relations": [
-        "Marketing - Charlie Wang",
-        "Recruitment - Bao Duong, Alex Simpson, and Sam Martin",
+        "Marketing - Sam Martin",
+        "Recruitment - Elan Ronen, Alex Simpson, and Sam Martin",
         "Apparel - Liam Oliva",
-        "Webmaster - Nick Frisch"
+        "Webmaster - Tommy Hayman"
     ],
 
     "Brotherhood": [
-        "Pledge Education - Emory Townley and Arya Kakarlapudi",
-        "Brotherhood Chair - Nick Frisch and Charlie Wang",
-        "Health and Wellness - Alex Simpson"
+        "Pledge Education - Jack Galasso and Kieth LaFriniere",
+        "Historian - Will Scott",
+        "Brotherhood Chair - Eli Grimsley  and Charlie Wang",
+        "Health and Wellness - Brandon Truong"
     ],
 
     "Judicial Board": [
-        "Junior Justices - Michael Villeneuve and Siddharth Gupta",
-        "Senior Justices - Nate Dykstra, Emory Townley, and Brennan Leinweber"
+        "Junior Justices - Alex Simpson and Eli Grimsley",
+        "Senior Justices - Eliot Wall, Michael Villeneuve, and Ian Moore"
     ],
 };
 
